@@ -11,7 +11,7 @@
     <!-- ==== BOX ICONS ==== -->
     <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
 
-    <title>SI</title>
+    <title>Abuchi Aguba</title>
 
 
 </head>
@@ -27,8 +27,8 @@
 
             <div class="nav_menu" id="nav-menu">
                 <ul class="nav_list">
-                    <li class="nav_item"><a href="#home" class="nav_link active">Home</a></li>
-                    <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+                    <li class="nav_item"><a href="#home" class="nav_link active"><i class="bx bx-home"></i></a></li>
+                    <li class="nav_item"><a href="#about" class="nav_link"><i class="bx bxs-user"></i></a></li>
                     <!-- ==== HOME 
                     <li class="nav_item"><a href="" class="nav_link">Skills</a></li>
                     <li class="nav_item"><a href="" class="nav_link">Portfolio</a></li>
@@ -73,8 +73,9 @@
                     <h2 class="about_subtitle">Abuchi Aguba</h2>
                     <span class="about_proffession">Software Developer</span>
                     <p class="about_text">I Build amazing <span class="bush">Website</span> leveraging the most robost technology in the industry to reach your online audience.</p>
+                    <h4 class "follow">Fell free to Contact me or follow my social</h4>
                     <div class="about_social">
-                        <a href="" class="about_social-icon"><i class="bx bxl-twitter"></i></a>
+                        <a href="https://twitter.com/agubajnr" class="about_social-icon"><i class="bx bxl-twitter"></i></a>
 
                     </div>
                 </div>
@@ -82,21 +83,41 @@
         </section>
 
 
+
+        <!-- ==== FOOTER ==== -->
+        <div class="foot">
+            <h4 class="foot-name">
+                Developed by <span class="dev"><i class="bx bxs-face-mask" style="color: rgb(10, 20, 112);"></i>SDev</span> &copy; <span id="copyright"></span>
+            </h4>
+        </div>
+
+
+
+
     </main>
-    <!-- ==== FOOTER ==== -->
 
 
-
-
-
-    <!-- ==== SCROLL REVEAL ==== -->
-    <script src="https://unpkg.com/scrollreveal"></script>
 
 
 
     <!-- ==== MAIN JS === -->
     <script src="app.js"></script>
+    <!-- ==== SCROLL REVEAL ==== -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+
+    <script>
+        document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()));
+    </script>
+
+
+
+
 
 </body>
+
+<!-- ==== Developed by OsDev while working in "JuJu Bug" ==== -->
 
 </html>

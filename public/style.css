@@ -409,3 +409,21 @@ img {
         position: relative;
     }
 }
+
+.dev {
+    cursor: pointer;
+    font-size: 11px;
+    color: rgba(1, 177, 77, 0.979);
+    border-bottom: 1px rgba(5, 129, 25) solid;
+}
+
+.foot {
+    height: 10px;
+    position: relative;
+    bottom: 9px;
+}
+
+.foot-name {
+    font-size: 15px;
+    text-align: center;
+}
